@@ -89,7 +89,7 @@ module "terraform-intersight-iks" {
 
   infraConfigPolicy = {
     use_existing = true
-    policyName   = "tf-iks-aci-dmz" #"cpoc-hx"  ## Note: Manual policy - not in TF common policy set
+    policyName   = "tf-iks-aci-dmz2" #"cpoc-hx"  ## Note: Manual policy - not in TF common policy set
   }
 
   addons = [
